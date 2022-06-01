@@ -6,15 +6,11 @@
 ### Service Management
 
 ITIL 4 defines a service as: 
-
 > A means of enabling value co-creation by facilitating outcomes that  customers want to achieve, without the customer having to manage  specific costs and risks
 
 ### Understand the key concepts of Service Management
-
 #### Definitions:  Section 1.1
-
 ##### 2 points
-
 - Service: A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks
 - Utility: The functionality offered by a product or service to meet a particular need. To have utility, a service must either support the consumer and / or remove constraints from the consumer.
 - Warranty: Assurance that a product or service will meet agreed requirements. Warranty often relates to service levels aligned with the needs of service consumers.
@@ -24,7 +20,6 @@ ITIL 4 defines a service as:
 - Sponsor: The role that authorizes budget for service consumption
 
 #### Key concepts: Section 1.2
-
 ##### 2 points
 
 - Cost: The amount of money spent on a specific activity or resource
@@ -40,16 +35,12 @@ ITIL 4 defines a service as:
   - Risks imposed on a consumer
 - Utility: The functionality offered by a product or service to meet a particular need. To have utility, a service must either support the consumer and / or remove constraints from the consumer.
 - Warranty: Assurance that a product or service will meet agreed requirements. Warranty often relates to service levels aligned with the needs of service consumers. (SLA)
-  <img src="/home/karti/snap/typora/57/.config/Typora/typora-user-images/image-20220531061238708.png" alt="image-20220531061238708" style="zoom:80%;" />
-
+<img src="/home/karti/snap/typora/57/.config/Typora/typora-user-images/image-20220531061238708.png" alt="image-20220531061238708" style="zoom:80%;" />
 [^Achieving Value]: Outcome, costs and risks
 
 ### Understand ITIL Guiding Principles
-
 #### Explain: Section 2.2
-
 ##### 5 points
-
 - Focus on value:
   - Everything should link to value
   - Value is defined by the consumer’s needs
@@ -104,9 +95,7 @@ ITIL 4 defines a service as:
 ### Four Dimensions of Service Management
 
 #### Describe: Section 3.1
-
 ##### 2 points
-
 - Organisations and People
 
   - Roles and responsibilities
@@ -130,7 +119,7 @@ ITIL 4 defines a service as:
 - Partners and Suppliers
 
   - Encompasses the relationships with other organizations that are involved in the design, development, deployment, delivery, support and / or continual improvement of services
-  - Influencing factors: 
+  -  Influencing factors: 
     - Strategic focus
     - Corporate culture
     - Resource scarcity 
@@ -162,47 +151,38 @@ Each area affected by multiple factors - PESTLE
 
 
 ### ITIL Key Terms (15 practices)
-
 #### Recall: 6.1
-
 ##### 5 points
-
 - Information security management: To protect the information needed by the organization to conduct its business
 - Relationship management: To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels. It includes the identification, analysis, monitoring and continual improvement of relationships with and between stakeholders
 - Supplier Management: To ensure that the organization’s suppliers and their performance are managed appropriately to support the provision of seamless, quality products and services
-- IT asset management
-- Monitoring and event management
-- Release management
-- Service configuration management
+- IT asset management: To plan and manage the full lifecycle of all IT assets, to help the organization: maximize value, control costs, manage risks, support decision-making about purchase, reuse and retirement of assets, meet regulatory and contractual requirements
+- Monitoring and event management: To systematically observe services and service components, and record and report selected changes of state identified as events
+- Release management: To make new and changed services and features available for use
+- Service configuration management: To ensure that accurate and reliable information about the configuration of services and the CIs that support them, is available when and where it is needed. This includes information on how Cis are configured and the relationships between them.
 - Deployment management
 - Continual improvement: To align the organization’s practices and services with changing business needs through the ongoing identification and improvement of services, service components, practices or any element involved in the efficient and effective management of products and services
-- Change enablement
-- Incident management
-- Problem management
-- Service request management
-- Service Desk
-- Service Level management
+- Change enablement: To maximize the number of successful IT changes by ensuring that risks have been properly assessed, authorizing changes to proceed, and managing a change schedule
+- Incident management: To minimize the negative impact of incidents by restoring normal service operation as quickly as possible
+- Problem management: To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors
+- Service request management: To support the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner
+- Service Desk: To provide a clear path for users to report issues, queries and requests, and have them acknowledged, classified, owned and actioned.
+- Service Level management: To set clear business-based targets for service performance so that the delivery of a service can be properly assessed, monitored and managed against these targets
 
 ### ITIL Key Terms (7 practices)
-
 #### Recall: 6.2
-
 ##### 2 points
-
 - IT asset
 - Event
 - Configuration item
 - Change
 - Incident
-- Problem
-- Known error
+- Problem: A cause, or potential cause, of one or more incidents
+- Known error: A problem that has been analysed and has not been resolved
 
 ### Understand ITIL (7 Practices)
-
 #### Explain: 7.1
-
 ##### 17 Points
-
 - Continual Improvement (including the model):
   - Must be embedded into every fibre of the organization
   - Developing improvement related methods and techniques
@@ -215,18 +195,95 @@ Each area affected by multiple factors - PESTLE
   - Planning and implementing improvements
   - Measuring and evaluating improvement results
   - Coordinating improvement activities across the organization
-
 - Change enablement
+  - Change - The addition, modification, or removal of anything that could have a direct or indirect effect on services
+  - Essential that the correct change authority is assigned to each type of change 
+  - Standard changes – low risk, pre-authorized, well understood, fully documented
+  - Normal changes - need to be scheduled, assessed and authorized following a standard process
+  - Emergency changes - must be implemented as soon as possible, e.g. to resolve an incident or implement a security patch
+  - Change schedule - used to help plan changes, assist in communication, avoid conflicts and assign resources
+
 - Incident management
-- Problem management
-- Service request management
-- Service desk
-- Service level management
+  - Incident - An unplanned interruption to a service, or reduction in the quality of a service
+  - Log and manage incidents
+  - Prioritized based on business impact
+  - Escalation
+  - Resolution and Closure
+  - Managed through toolsets to give access to service level, configuration and knowledge data
+  - May use self help
+  - May be closed by the service desk or automatic scripting
+  - May involve escalation to: 
+    - Support groups (technical, horizontal, functional) 
+    - Management (managerial , vertical, hierarchical)
+    - Suppliers
+
+  - Major incidents may involve dedicated or temporary teams
+  - Service continuity may need to be invoked for extreme cases
+
+- Problem management:
+  - Problem: A cause, or potential cause, of one or more incidents 
+  - Known error: A problem that has been analysed and has not been resolved
+  - Workaround - A solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available. Some workarounds reduce the likelihood of incidents
+  - Closely linked to incident management
+  - Interfaces with risk management, change enablement, knowledge management and continual improvement
+  - Many problem management activities rely on the knowledge and experience of staff, rather than on following detailed procedures
+
+- Service request management:
+  - Service request - A request from a user or user’s authorized representative that initiates a service action that has been agreed as a normal part of service delivery
+  - Standardise and automate as much as possible
+  - Policies should be established regarding what approval / authorisation is required
+  - Expectations of users should be clearly set
+  - Opportunities for improvement should be identified and implemented
+  - Difference between requests and incidents should be defined
+  - May require different workflow models
+
+- Service desk: 
+  - To capture demand for incident resolution and service requests 
+  - Single point of contact for the IT or service organization
+  - Focus of the service desk is to provide support for ‘people and business’ rather than simply technical issues
+  - Empathetic and informed link between provider and user
+  - Self service
+  - Phone calls
+  - Service portals and mobile applications
+  - Chat, through live chat and chatbots
+  - Email can be used for logging and updating
+  - Walk-in service desks
+  - Text and social media messaging
+  - Public or corporate social media and discussion forums
+  - Types: 
+    - Local
+    - Centralized 
+    - Virtual
+
+  - Training:
+    - Empathy
+    - Incident analysis
+    - Prioritization
+    - Communications
+    - Diagnosis
+
+- Service level management:
+  - The definition, documentation and active management of service levels. 
+  - Skills include: 
+    - Relationship management 
+    - Business liaison
+    - Business analysis
+    - Commercial / supplier management
+    - Customer engagement 
+    - Customer feedback
+    - Surveys
+    - Key business related measures
+    - Operational metrics • Business metrics
+
+  - Service level agreements (SLAs): 
+    - Must be related to a defined ‘service’ in the service catalogue
+    - Should relate to defined outcomes and not simply operational metrics.
+    - Should reflect an ‘agreement’ between all stakeholders
+    - Must be simply written / easy to understand and use, for all parties
+
 
 #### Understand Service Value Chain (SVC)
-
 ##### 1 Point
-
 - Plan: to ensure a shared understanding of the vision, current status and improvement direction for all four dimensions and all products and services across the organization
 - Engage: to provide a good understanding of stakeholder needs, transparency, and continual engagement and good relationships with all stakeholders
 - Design and Transition: to ensure that products and services continually meet stakeholder expectations for quality, costs and time-to-market
