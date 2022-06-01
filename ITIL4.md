@@ -2,26 +2,22 @@
 
 [TOC]
 
-
 ### Service Management
 
 ITIL 4 defines a service as: 
 > A means of enabling value co-creation by facilitating outcomes that  customers want to achieve, without the customer having to manage  specific costs and risks
 
 ### Understand the key concepts of Service Management
-#### Definitions:  Section 1.1
-##### 2 points
+#### Definitions:  Section 1.1 (2 points)
 - Service: A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks
 - Utility: The functionality offered by a product or service to meet a particular need. To have utility, a service must either support the consumer and / or remove constraints from the consumer.
 - Warranty: Assurance that a product or service will meet agreed requirements. Warranty often relates to service levels aligned with the needs of service consumers.
 - Customer: The role that defines the requirements for a service and takes responsibility for the outcomes of service consumption
-- User: The roe that uses services
+- User: The role that uses services
 - Service Management: A set of specialized organizational capabilities for enabling value for customers in the form of services
 - Sponsor: The role that authorizes budget for service consumption
 
-#### Key concepts: Section 1.2
-##### 2 points
-
+#### Key concepts: Section 1.2 (2 points)
 - Cost: The amount of money spent on a specific activity or resource
   - Costs removed from a consumer
   - Costs imposed on a consumer
@@ -35,12 +31,9 @@ ITIL 4 defines a service as:
   - Risks imposed on a consumer
 - Utility: The functionality offered by a product or service to meet a particular need. To have utility, a service must either support the consumer and / or remove constraints from the consumer.
 - Warranty: Assurance that a product or service will meet agreed requirements. Warranty often relates to service levels aligned with the needs of service consumers. (SLA)
-<img src="/home/karti/snap/typora/57/.config/Typora/typora-user-images/image-20220531061238708.png" alt="image-20220531061238708" style="zoom:80%;" />
-[^Achieving Value]: Outcome, costs and risks
 
 ### Understand ITIL Guiding Principles
-#### Explain: Section 2.2
-##### 5 points
+#### Explain: Section 2.2 (5 points)
 - Focus on value:
   - Everything should link to value
   - Value is defined by the consumer’s needs
@@ -93,9 +86,7 @@ ITIL 4 defines a service as:
   - Automation typically refers to the use of technology to perform a step or series of steps correctly and consistently with limited or no human intervention
 
 ### Four Dimensions of Service Management
-
-#### Describe: Section 3.1
-##### 2 points
+#### Describe: Section 3.1 (2 points)
 - Organisations and People
 
   - Roles and responsibilities
@@ -135,24 +126,17 @@ ITIL 4 defines a service as:
 
   - Value stream - a series of steps an organization undertakes to create and deliver products and services to consumers
 
-    <img src="/home/karti/snap/typora/57/.config/Typora/typora-user-images/image-20220531113111074.png" alt="image-20220531113111074" style="zoom:50%;" />
+> Each area affected by multiple factors - PESTLE
+>
+> - Political 
+> - Economic
+> - Social
+> - Technological
+> - Legal
+> - Environmental
 
-
-Each area affected by multiple factors - PESTLE
-
-- Political 
-- Economic
-- Social
-- Technological
-- Legal
-- Environmental
-
-<img src="/home/karti/snap/typora/57/.config/Typora/typora-user-images/image-20220531062110368.png" alt="image-20220531062110368" style="zoom:80%;" />
-
-
-### ITIL Key Terms (15 practices)
-#### Recall: 6.1
-##### 5 points
+### ITIL Know the Purpose and Key Terms (15 practices)
+#### Recall: Section 6.1 (5 points)
 - Information security management: To protect the information needed by the organization to conduct its business
 - Relationship management: To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels. It includes the identification, analysis, monitoring and continual improvement of relationships with and between stakeholders
 - Supplier Management: To ensure that the organization’s suppliers and their performance are managed appropriately to support the provision of seamless, quality products and services
@@ -160,7 +144,7 @@ Each area affected by multiple factors - PESTLE
 - Monitoring and event management: To systematically observe services and service components, and record and report selected changes of state identified as events
 - Release management: To make new and changed services and features available for use
 - Service configuration management: To ensure that accurate and reliable information about the configuration of services and the CIs that support them, is available when and where it is needed. This includes information on how Cis are configured and the relationships between them.
-- Deployment management
+- Deployment management: The purpose of the deployment management practice is to move new or changed hardware, software, documentation,  processes, or any other component to live environments (it may also be involved in deploying components to other environments for testing or  staging)
 - Continual improvement: To align the organization’s practices and services with changing business needs through the ongoing identification and improvement of services, service components, practices or any element involved in the efficient and effective management of products and services
 - Change enablement: To maximize the number of successful IT changes by ensuring that risks have been properly assessed, authorizing changes to proceed, and managing a change schedule
 - Incident management: To minimize the negative impact of incidents by restoring normal service operation as quickly as possible
@@ -170,8 +154,7 @@ Each area affected by multiple factors - PESTLE
 - Service Level management: To set clear business-based targets for service performance so that the delivery of a service can be properly assessed, monitored and managed against these targets
 
 ### ITIL Key Terms (7 practices)
-#### Recall: 6.2
-##### 2 points
+#### Recall: Section 6.2 (2 points)
 - IT asset: Any financially valuable component that can contribute to the delivery of an IT product or service
 - Event: Can be defined as any change of state that has significance for the management of a configuration item (CI) or IT service
 - Configuration item: Any component that needs to be managed in order to deliver an IT service
@@ -181,8 +164,7 @@ Each area affected by multiple factors - PESTLE
 - Known error: A problem that has been analysed and has not been resolved
 
 ### Understand ITIL (7 Practices)
-#### Explain: 7.1
-##### 17 Points
+#### Explain: Section 7.1 (17 Points)
 - Continual Improvement (including the model):
   - Must be embedded into every fibre of the organization
   - Developing improvement related methods and techniques
@@ -202,6 +184,14 @@ Each area affected by multiple factors - PESTLE
   - Normal changes - need to be scheduled, assessed and authorized following a standard process
   - Emergency changes - must be implemented as soon as possible, e.g. to resolve an incident or implement a security patch
   - Change schedule - used to help plan changes, assist in communication, avoid conflicts and assign resources
+  - Change authority - A person or group responsible for authorising a change
+  - Change model - A repeatable approach to the management of a particular type of change
+    - Change models can be defined based on factors such as:
+      - systems/technologies to change
+      - scale of change
+      - locations/territories
+      - customers
+      - regulartory requirements affecting the change
 
 - Incident management
   - Incident - An unplanned interruption to a service, or reduction in the quality of a service
