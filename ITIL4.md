@@ -166,17 +166,17 @@ Each area affected by multiple factors - PESTLE
 - Incident management: To minimize the negative impact of incidents by restoring normal service operation as quickly as possible
 - Problem management: To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors
 - Service request management: To support the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner
-- Service Desk: To provide a clear path for users to report issues, queries and requests, and have them acknowledged, classified, owned and actioned.
+- Service Desk: To provide a clear path for users to report issues, queries and requests, and have them acknowledged, classified, owned and actioned. Also to capture demand for incident resolution and srvice requests. It should also be the entry point and single point of contact for the service provider with all of its users
 - Service Level management: To set clear business-based targets for service performance so that the delivery of a service can be properly assessed, monitored and managed against these targets
 
 ### ITIL Key Terms (7 practices)
 #### Recall: 6.2
 ##### 2 points
-- IT asset
-- Event
-- Configuration item
-- Change
-- Incident
+- IT asset: Any financially valuable component that can contribute to the delivery of an IT product or service
+- Event: Can be defined as any change of state that has significance for the management of a configuration item (CI) or IT service
+- Configuration item: Any component that needs to be managed in order to deliver an IT service
+- Change: The addition, modification, or removal of anything that could have a direct or indirect effect on services
+- Incident: Unplanned interuption to a service, or reduction in the quality of a service
 - Problem: A cause, or potential cause, of one or more incidents
 - Known error: A problem that has been analysed and has not been resolved
 
